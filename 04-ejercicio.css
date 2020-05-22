@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    background-color: #E8E7E7;
+
+}
+
+.contenedor{
+    width: 25%;
+    height: 45%;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3%;
+}
+.imagen-principal{
+height:600px;
+/* position: absolute;
+top: 200px; */
+transform: translate(100%,30%);
+}
+
+#nombre-principal{
+font-size: 100px;
+color: #4E94CE;
+margin-top:220px;
+text-align: center;
+font-family: 'Dosis','Open Sans Condensed', sans-serif;
+font-weight: 600;
+}
+
+#puesto-laboral{
+    font-size: 70px;
+    color: #5C5454;
+    margin-top:100px;
+    text-align: center;
+    font-family: 'Dosis','Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    }
+
+.facebook{
+height:150px;
+        /* position: absolute;
+        top: 200px; */
+transform: translate(-100%,500%);
+        }
+
+.git-hub{
+height:140px;
+/* position: absolute;
+top: 0px;
+right: 0px; */
+ transform: translate(-60%,540%);
+}
+.linkedin{
+    height:120px;
+    /* position: absolute;
+    top: 200px; */
+    transform: translate(-50%,615%);
+    }
+
+.twitter{
+        height:150px;
+        /* position: absolute;
+        top: 200px; */
+        transform: translate(-90%,500%);
+        }

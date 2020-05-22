@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#div-1{
+    width: 500px;
+    height: 500px;
+    background-image: url(./imágenes/paleta.JPG);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/* .div-2:hover{
+    width: 500px;
+    height: 600px;
+    background: -webkit-linear-gradient(210deg,#E1E1E1,#E1E1E1); 
+} */
+
+#div-2 h1:hover{
+    width: 500px;
+    height: 600px;
+    background: -webkit-linear-gradient(210deg,#E1E1E1,#E1E1E1); 
+    /* height: 600px; */
+    padding-top: 460px; 
+    text-align: center;
+    font-family: cursive;
+    color:#FBF5E4;
+    font-size: 40px; 
+    transform: translate(0px,-255px);
+    }

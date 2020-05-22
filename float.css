@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 900px;
+} */
+header{
+    background-color:teal;
+    height: 70px;
+  }
+
+  main{
+      height: 830px;
+      background-color: turquoise;
+  }
+#aside-1{
+    width: 20%;
+    height: 830px;
+    /* margin: 5px; */
+    background-color: tomato;
+    float: left;
+}
+
+#aside-2{
+    width: 20%;
+    height: 830px;
+    /* margin: 5px; */
+    background-color: yellow;
+    float: right;
+}
+
+#section-1
+{
+   float: left;
+    width: 60%;
+    height: 830px;
+    /* margin: 5px; */
+    background-color: pink;
+}
+  .fix{
+    clear: both;
+}

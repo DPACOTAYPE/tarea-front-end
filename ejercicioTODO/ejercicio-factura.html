@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ejercicio-factura.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+     <!-- <header></header>  -->
+    <main class="main__principal">
+        <h1 class="factura">FACTURA</h1>
+        <div class="main__factura">
+          <label for="nombre"><h3 class="l_nombre">Nombre</h3></label>
+          <input type="text" id="nombre" placeholder="Ejem. Transportes SAMI" class="nombre">
+           <label for="fecha"><h3 class="l_fecha">Fecha</h3></label>
+          <input type="date" id="fecha" class="fecha">
+          <label for="ruc"><h3 class="l_ruc">RUC</h3></label>
+          <input type="text" id="ruc" class="ruc">
+          <label for="serie"><h3 class="l_serie">Nro</h3></label>
+           <input type="text" id="serie" class="serie">
+          </div>
+          
+        </div>
+        <div class="main__detalle">
+            <h3 class="l_cant">Cantidad</h3>
+            <h3 class="l_descr">Descripción</h3>
+            <h3 class="l_p_unit">P. Unit</h3>
+            <h3 class="l_p_total"> P. Total</h3>
+            <input type="number" id="cantidad" class="cantidad">
+            <input type="text" id="descripcion" class="descripcion">
+            <input type="number" id="p_unit" class="p_unit"> 
+            <input type="number" id="p_total" class="p_total">
+            <div class="main_btn">
+                <button class="main__agregar" id="btnAgregar"><i class="fas fa-save fa-4x"></i></button>
+            </div>
+        </div>
+      
+        <div class="main__dinamico">
+            <ul class="main__listado_tit">
+                <li class="main__item_tit">Cantidad</li>
+                <li class="main__item_tit">Descripción</li>
+                <li class="main__item_tit">P. Unit</li>
+                <li class="main__item_tit"> P. Total</li>
+            </ul>
+            <ul class="main__listado_dato" id="main__listado_dato">
+                <!-- <li class="main__item_dato">
+                <span class="main_cant">1</span>
+                <span class="main_desc">Llantas</span>
+                <span class="main_p_unit">S/.200</span>
+                <span class="main_p_total">S/.200</span>
+                </li> -->
+               </ul>
+               <li class="main__item_total" id="main__item_total">
+                <span class="main_total">TOTAL</span>
+               <input type="number" class="main_importe_total" id="main_importe_total">
+                </li>
+                
+            <button class="main__guardar" id="btnGuardar"><span class="guardar">Guardar Todo</span><i class="fas fa-save fa-2x bguarda"></i></button>
+        </div>
+    </main>
+    <script src="./ejercicio-factura.js"></script>
+</body>
+</html>

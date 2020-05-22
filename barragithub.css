@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #24292E;
+    
+}
+.contenedor1{
+    width: 550px; 
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    align-items: center;
+    
+}
+
+.logo-git{
+    border-radius: 50%;
+}
+.logo-git:hover{
+    opacity: 0.7;
+}
+#busqueda{
+    /* border: 2px solid yellow;  */
+    width: 450px;
+    height: 30px;
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+    /* font-weight: 900; */
+    color:#888B8E;
+    font-size: 18px;
+    background-color:#3F4448; 
+    border-radius: 2%;
+    opacity: 0.8;
+    border: none;
+}
+
+.navegacion{
+    display: flex;
+    /* border: 2px solid pink;  */
+    width: 470px;
+    /* flex-wrap: wrap; */
+}
+
+.listado{
+    list-style: none;
+    /* color: white; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    align-items: center;
+    /* align-content: center; */
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.listado-item:hover{
+    opacity: 0.6;
+    color: #C3C3C3;
+} 
+
+.enlaces{
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor2{
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 2px solid cyan; */
+    
+}
+
+.menu{
+    display: flex;
+    height: 31px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 50%;
+    /* opacity: 0.8; */
+    filter: grayscale(1);
+
+    
+}
+.menu:hover{
+    opacity: 0.6;
+}
